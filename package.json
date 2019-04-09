@@ -1,0 +1,38 @@
+{
+  "name": "geodataserver",
+  "version": "0.0.1",
+  "description": "server developed by koa2",
+  "main": "server.js",
+  "scripts": {
+    "start": "node cross-env NODE_ENV=production server.js",
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjylxmhzq/GeoDataServer.git"
+  },
+  "keywords": [
+    "GeoData",
+    "server",
+    "地理信息系统",
+    "后台",
+    "可视化"
+  ],
+  "author": "sysu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjylxmhzq/GeoDataServer/issues"
+  },
+  "homepage": "https://github.com/hjylxmhzq/GeoDataServer#readme",
+  "devDependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "mime": "^2.4.2",
+    "mongodb": "^3.2.3"
+  }
+}
