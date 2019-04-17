@@ -4,8 +4,8 @@
   "description": "server developed by koa2",
   "main": "server.js",
   "scripts": {
-    "start": "npx cross-env NODE_ENV=production && node server.js",
-    "test": "npx cross-env NODE_ENV=development && node server.js"
+    "start": "cross-env NODE_ENV=production node server.js",
+    "test": "cross-env NODE_ENV=development node server.js"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
+    "log4js": "^4.1.0",
     "mime": "^2.4.2",
     "mongodb": "^3.2.3"
   }

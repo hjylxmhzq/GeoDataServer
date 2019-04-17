@@ -3,10 +3,10 @@ const data = new Date()
 
 log4js.configure({
     appenders: {
-        everything: { type: 'file', filename: `logs/${new Date().toLocaleDateString()}.log` }
+        log: { type: 'file', filename: `logs/${new Date().toLocaleDateString()}.log` }
     },
     categories: {
-        default: { appenders: [ 'everything' ], level: 'info' }
+        default: { appenders: [ 'log' ], level: 'info' }
     }
 })
 
