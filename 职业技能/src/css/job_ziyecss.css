@@ -1,0 +1,1139 @@
+div#content {
+    width: 1132px;
+    margin: 0 auto;
+}
+DIV#mainsection DIV {
+  font-family: Verdana;
+  font-size: 12px;
+  color: #000;
+}
+
+#bpopup_findocc_btn UL,
+#popup_findocc_btn UL {
+  border-color: #AD3C48;
+}
+#bpopup_advsearch_btn UL,
+#popup_advsearch_btn UL {
+  border-color: #118185;
+}
+#bpopup_crosswalk_btn UL,
+#popup_crosswalk_btn UL {
+  border-color: #553792;
+}
+#bpopup_findocc_btn .popupbutton_out,
+#popup_findocc_btn .popupbutton_out {
+  color: #AD3C48 !important;
+}
+#bpopup_advsearch_btn .popupbutton_out,
+#popup_advsearch_btn .popupbutton_out {
+  color: #118185 !important;
+}
+#bpopup_crosswalk_btn .popupbutton_out,
+#popup_crosswalk_btn .popupbutton_out {
+  color: #553792 !important;
+}
+#bpopup_findocc_btn .popupbutton_out:hover,
+#bpopup_findocc_btn .popupbutton_over,
+#bpopup_findocc_btn .popupbutton_active,
+#popup_findocc_btn .popupbutton_out:hover,
+#popup_findocc_btn .popupbutton_over,
+#popup_findocc_btn .popupbutton_active {
+  background-color: #AD3C48 !important;
+  background: url(image/homepage/find_ovr.png) bottom left repeat-x !important;
+  color: #fff !important;
+}
+#bpopup_advsearch_btn .popupbutton_out:hover,
+#bpopup_advsearch_btn .popupbutton_over,
+#bpopup_advsearch_btn .popupbutton_active,
+#popup_advsearch_btn .popupbutton_out:hover,
+#popup_advsearch_btn .popupbutton_over,
+#popup_advsearch_btn .popupbutton_active {
+  background-color: #118185 !important;
+  background: url(image/homepage/adv_ovr.png) bottom left repeat-x !important;
+  color: #fff !important;
+}
+#bpopup_crosswalk_btn .popupbutton_out:hover,
+#bpopup_crosswalk_btn .popupbutton_over,
+#bpopup_crosswalk_btn .popupbutton_active,
+#popup_crosswalk_btn .popupbutton_out:hover,
+#popup_crosswalk_btn .popupbutton_over,
+#popup_crosswalk_btn .popupbutton_active {
+  background-color: #553792 !important;
+  background: url(image/homepage/walk_ovr.png) bottom left repeat-x !important;
+  color: #fff !important;
+}
+.mid_title{
+      margin: 19.9px;
+}
+DIV.callout {
+  font-size:      x-small;
+  width:          50%;
+  margin:         1em 3em 0;
+  padding:        0;
+  border:         solid #FFFFFF 1px;
+  position:       relative;
+}
+
+DIV.callout DIV {
+  background:     #FFFFCC;
+  font-size:      x-small;
+  border:         solid #888888 1px;
+  padding:        1em;
+  margin:         0 0 19px;
+}
+
+DIV.callout IMG {
+  position:       absolute;
+  bottom:         0;
+  left:           1em;
+}
+
+A:link {
+  color:          blue;
+}
+
+A:visited {
+  color:          purple;
+}
+
+A:active {
+  color:          red;
+}
+
+A.white, A.white:link, A.white:visited, A.white:active, A.white:hover {
+  color:          white;
+  text-decoration: none;
+}
+
+A.nounderline, A.nounderline:link, A.nounderline:visited, A.nounderline:active, A.nounderline:hover {
+  text-decoration: none;
+}
+
+A.resetbtn, A.resetbtn:link, A.resetbtn:visited, A.resetbtn:active, A.resetbtn:hover {
+  font-size:      x-small;
+}
+
+A.whatsnew, A.whatsnew:link, A.whatsnew:visited, A.whatsnew:active, A.whatsnew:hover {
+  display:        block;
+  color:          #004488;
+  text-decoration: none;
+  margin-left:    100px;
+}
+
+A.star, A.star:link, A.star:visited, A.star:active, A.star:hover {
+  font-size:      x-small;
+  vertical-align: text-top;
+}
+
+BODY {
+      background: #fafafa;
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+}
+
+
+H1 {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-weight:    bold;
+  text-align:     center;
+}
+
+H2 {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-weight:    bold;
+  text-align:     left;
+}
+
+H3 {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      medium;
+  font-weight:    bold;
+  text-align:     left;
+}
+
+H3.overview {
+  font-size:      small;
+}
+
+H3.report {
+  background-color: #EEEEEE;
+  padding:        1px;
+}
+H3.report LABEL {
+  font-size: medium;
+}
+
+H3.reportdesc {
+  background-color: #81b9f1;
+  padding:        1px;
+  margin-bottom:  0;
+}
+DIV.reportdesc {
+  padding:        0.5em;
+  margin-bottom:  1em;
+  background-color: #FAFAFA;
+  border:         solid #EEEEEE 1px;
+}
+DIV.reportsubdesc {
+  padding:        0;
+  margin-bottom:  1em;
+}
+DIV.collapse {
+  font-size: x-small;
+  line-height: 14px;
+  margin-bottom: 1.2em;
+  padding: 0.4em;
+  border: solid 1px #eee;
+  background-color: #f6f6f6;
+}
+DIV.collapse IMG {
+  vertical-align: top;
+  padding-right: 1em;
+}
+
+H4 {
+  padding:        0.2em 0;
+  margin:         0;
+}
+
+FORM H4 {
+  font-size:      small;
+}
+
+HR {
+  display:        block;
+  clear:          both;
+}
+
+INPUT {
+  color:          black;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-style:     normal;
+  font-weight:    normal;
+}
+
+INPUT.txt {
+  background:     white;
+  font-size:      small;
+}
+
+INPUT.gobtn {
+  padding:        0.2em 1em;
+}
+
+OL {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      small;
+  font-style:     normal;
+  font-weight:    normal;
+  margin-top:     5px;
+  margin-bottom:  5px;
+}
+
+OL.help0 {
+  list-style-type: upper-roman;
+  font-size:      medium;
+}
+
+OL.help1 {
+  list-style-type: upper-alpha;
+}
+
+OL.help2 {
+  font-size:      small;
+  list-style-type: decimal;
+}
+
+OL.help3 {
+  list-style-type: lower-alpha;
+  margin-top:      0px;
+}
+
+P {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      small;
+}
+
+DIV {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+
+}
+
+DIV#headerb {
+  position:     relative;
+}
+
+DIV#quicksearchhelpdesc
+{
+  position:     absolute;
+  z-index:      2;
+  display:      none;
+  overflow:     hidden;
+  right:        16px;
+  top:          2.5em;
+  min-height:   1em;
+  background-color: #ffffee;
+  border:       solid 3px #ffffff;
+  border-right: solid 3px #ddddcc;
+  border-bottom: solid 3px #ddddcc;
+  padding:      1em;
+  width:        22em;
+  text-align:   left;
+}
+DIV#quicksearchhelpdesc iframe
+{
+  display:      none;/*sorry for IE5*/
+  display/**/:block;/*sorry for IE5*/
+  position:     absolute;/*must have*/
+  top:          0;/*must have*/
+  left:         0;/*must have*/
+  z-index:      -1;/*must have*/
+  filter:       mask();/*must have*/
+  width:        1000px;/*must have for any big value*/
+  height:       1000px;/*must have for any big value*/
+}
+DIV#quicksearchhelpdesc P
+{
+  margin:       0.5em;
+  font-weight:  normal;
+  font-size:    small;
+}
+DIV#quicksearchhelpdesc A:link {
+  text-decoration: underline;
+  color:          blue;
+}
+DIV#quicksearchhelpdesc A:visited {
+  text-decoration: underline;
+  color:          purple;
+}
+DIV#quicksearchhelpdesc A:active {
+  text-decoration: underline;
+  color:          red;
+}
+
+DIV.exampletext {
+  color:          #888888;
+  font-size:      x-small;
+}
+
+DIV.examplebody {
+  background:     white;
+  padding:        0.6em;
+  margin:         0.3em 0;
+  border-top:     dotted #FFFFDD 3px;
+  border-bottom:  dotted #FFFFDD 3px;
+}
+
+DIV.example {
+  background:     #FFFFDD;
+  padding:        0.3em 0.8em;
+  margin:         0 2em;
+  border:         solid #CCCCAA 1px;
+}
+
+P.block {
+  padding:        0px;
+  padding-left:   5%;
+  padding-right:  5%;
+}
+
+P.center {
+  text-align:     center;
+}
+
+P.exc {
+  font-weight:    bold;
+}
+
+P.msg {
+  background:     #FFFFDD;
+  margin:         1em 6em;
+  padding:        0.8em;
+  border:         none;
+  font-weight:    bold;
+}
+
+P.footnote {
+  font-size:      x-small;
+}
+
+SUP.foot {
+  font-size:      xx-small;
+  vertical-align: text-top;
+}
+
+DIV.whatsnew {
+  background:     #FFFFDD;
+  padding:        0.8em;
+  margin:         1em 20%;
+  border:         solid #CCCCCC 1px;
+}
+
+DIV.whatsnew B {
+  color:          #0000FF;
+  text-decoration: underline;
+}
+
+DIV.intfilter {
+  background:     #FFFFCC;
+  padding:        0 1em 1em;
+  margin:         1em 3em;
+  border:         solid #EEEEEE 1px;
+  border-bottom:  solid #CCCCCC 1px;
+  border-right:   solid #CCCCCC 1px;
+}
+
+DIV.updates {
+  float:          right;
+  text-align:     right;
+  font-size:      x-small;
+  margin:         5px;
+  margin-top:     15px;
+}
+
+DIV.exclist {
+  padding:        0.5em 0 0.5em 5em;
+}
+
+DIV.excitem {
+  padding-bottom: 0.5em;
+}
+
+DIV.expitem {
+  padding:        0 0 0.3em 1em;
+}
+
+DIV.indemandlg {
+  padding-top:    0.6em;
+}
+
+DIV.ttsearch {
+  border:         solid #EEEEEE 2px;
+  margin:         1em;
+}
+
+DIV.ttsearch H4 {
+  padding:        0.3em;
+  background:     #EEEEEE;
+  font-size:      small;
+  margin:         0;
+}
+
+DIV.ttsearch DIV.content {
+  padding:        0.6em;
+}
+
+DIV.ttfeedback {
+  border:         solid 1px #CCCCCC;
+  background:     #FFFFEE;
+  padding:        0 1em;
+  margin:         2em 10% 1em;
+}
+
+DIV.details {
+  margin: 0 0 0.5em 0;
+}
+DIV.details UL {
+  margin: 0.3em 0;
+  padding: 0 0 0 2em;
+}
+DIV.details LI {
+  margin-bottom: 0.2em;
+}
+A.toggle {
+  font-weight: bold;
+  color: #048;
+}
+
+DIV.moreinfo H4 {
+  font-size:      medium;
+}
+
+P.lg {
+  font-size:      medium;
+}
+
+P.lgcenter {
+  font-size:      medium;
+  text-align:     center;
+}
+
+P.sm {
+  font-size:      x-small;
+}
+
+P.smblock {
+  font-size:      x-small;
+  padding:        0px;
+  padding-left:   5%;
+  padding-right:  5%;
+}
+
+P.smcenter {
+  font-size:      x-small;
+  text-align:     center;
+}
+
+P.ttcat {
+  border-bottom:  solid #004488 1px;
+}
+
+P.formsub {
+  margin-left:    1.5em;
+}
+
+P.formsub LABEL {
+  font-weight:    bold;
+}
+
+SELECT {
+  background:     white;
+  color:          black;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-style:     normal;
+  font-weight:    normal;
+}
+
+SPAN.debug {
+  background:     #FFFFBB;
+  color:          #CC0000;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      x-small;
+}
+
+SPAN.link {
+  color:          #0000FF;
+  font-weight:    bold;
+  text-decoration: underline;
+}
+
+SPAN.minititle {
+  font-size:      small;
+}
+
+SPAN.reg {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      small;
+  font-style:     normal;
+  font-weight:    normal;
+}
+
+SPAN.sel {
+  background:     white;
+  color:          black;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      small;
+  font-style:     normal;
+  font-weight:    normal;
+}
+
+SPAN.slogan {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      small;
+  font-style:     italic;
+  font-weight:    normal;
+}
+
+SPAN.sm {
+  font-size:      x-small;
+}
+
+SPAN.skillscore {
+  font-size:      small;
+  font-weight:    bold;
+}
+
+SPAN.titleb {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      medium;
+  font-style:     normal;
+  font-weight:    bold;
+}
+
+SPAN.footnum {
+  font-weight:    bold;
+  font-size:      xx-small;
+}
+
+SUP.tm {
+  font-size:      xx-small;
+  vertical-align: text-top;
+}
+
+SPAN.star {
+  font-size:      x-small;
+  vertical-align: text-top;
+}
+
+TABLE {
+  background:     white;
+}
+
+TH {
+  background:     white;
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      small;
+  font-style:     normal;
+  font-weight:    bold;
+}
+
+TD {
+  background:     white;
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      small;
+  font-style:     normal;
+  font-weight:    bold;
+  text-align:     left;
+  vertical-align: top;
+
+}
+
+TD.nonbold {
+  font-weight:    normal;
+}
+
+TD.form2 {
+  background:     #FFFFBB;
+  font-weight:    normal;
+}
+
+TH.reltitle {
+  color:          #004488;
+  background:     white;
+  font-size:      x-small;
+  font-weight:    bold;
+  vertical-align: bottom;
+  text-align:     left;
+  border:         solid #004488 0px;
+  border-bottom-width: 1px;
+}
+
+TH.reltitlea {
+  color:          #004488;
+  background:     white;
+  font-size:      x-small;
+  font-weight:    bold;
+  vertical-align: bottom;
+  text-align:     right;
+  border:         solid #004488 0px;
+  border-bottom-width: 1px;
+}
+
+SPAN.highlight1 {
+  color:          #552222;
+  font-weight:    bold;
+}
+
+SPAN.highlight2 {
+  color:          #225533;
+  font-weight:    bold;
+}
+
+SPAN.highlight3 {
+  color:          #553355;
+  font-weight:    bold;
+}
+
+
+DIV.smallrow {
+  color:          white;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      1px;
+  font-style:     normal;
+  font-weight:    bold;
+  padding:        0px;
+  margin:         0px;
+  border:         solid #CCCCCC 0px;
+  border-top-width: 1px;
+}
+
+DIV.reporttitle {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      x-small;
+  font-style:     normal;
+  font-weight:    bold;
+  padding:        0px;
+  margin:         0px;
+}
+
+DIV.reporttitlea {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      x-small;
+  font-style:     normal;
+  font-weight:    bold;
+  text-align:     right;
+  padding:        0px;
+  margin:         0px;
+}
+
+TD.report2 {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+}
+TD.report2mid {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+  vertical-align: middle;
+}
+
+TD.block {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+  padding:        0 0 1em;
+  margin:         0;
+}
+
+TD.reportrt {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+  text-align:     right;
+}
+
+TD.report2f {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+  margin-top:     0;
+  margin-bottom:  0;
+  padding-top:    0.8em;
+  padding-bottom: 0;
+}
+
+TD.reportrtd {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+  text-align:     right;
+  padding-top:    0.5em;
+  padding-bottom: 0;
+}
+
+TD.report2ed {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+  padding-top:    0.5em;
+  padding-bottom: 0;
+}
+
+TD.report2child {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+  padding-top:    0.5em;
+  padding-bottom: 0;
+  padding-left:   1.5em;
+}
+
+TD.reportrted {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+  text-align:     right;
+  padding-top:    0;
+  padding-bottom: 0;
+}
+
+TD.report2e {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+  padding-top:    0;
+  padding-bottom: 0;
+  padding-left:   2em;
+}
+
+TD.reportrtf {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+  text-align:     right;
+  margin-top:     0;
+  margin-bottom:  0;
+  padding-top:    0.8em;
+  padding-bottom: 0;
+}
+
+TD.reportrte {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+  text-align:     right;
+  margin-top:     0;
+  margin-bottom:  0;
+  padding-top:    0;
+  padding-bottom: 0;
+}
+
+TD.report2a {
+  background:     white;
+  font-size:      x-small;
+  font-weight:    normal;
+  text-align:     right;
+}
+
+TD.report2al {
+  background:     white;
+  font-size:      x-small;
+  font-weight:    normal;
+  text-align:     left;
+}
+
+TD.report2b {
+  background:     white;
+  font-size:      small;
+  font-weight:    bold;
+  text-align:     right;
+}
+TD.report2bmid {
+  background:     white;
+  font-size:      small;
+  font-weight:    bold;
+  text-align:     right;
+  vertical-align: middle;
+}
+
+TD.report2c {
+  background:     white;
+  font-size:      small;
+  font-weight:    bold;
+}
+
+TD.customleft {
+  background:     white;
+  font-size:      x-small;
+  border:         solid #ddd 0px;
+  border-bottom-width: 1px;
+  padding:        6px 4px;
+}
+
+TD.customright {
+  background:     white;
+  font-size:      small;
+  font-weight:    normal;
+  border:         solid #ddd 0px;
+  border-bottom-width: 1px;
+  padding:        6px 4px;
+}
+
+TD.blank {
+  background:     white;
+  font-size:      9px;
+}
+
+TD.greybar {
+  background:     #EEEEEE;
+  font-size:      9px;
+}
+
+TD.smallrow {
+  background-color: white;
+  font-size:      1px;
+}
+
+TD.anchor {
+  background:     white;
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+}
+
+TD.ancexp {
+  background:     white;
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      x-small;
+  font-style:     normal;
+  font-weight:    normal;
+  text-align:     center;
+  vertical-align: bottom;
+  border:         solid #004488 0px;
+  border-bottom-width: 1px;
+}
+
+TABLE.twocolumn TD {
+  font-weight:    normal;
+  margin:         0;
+  padding:        0;
+}
+
+TABLE.twocolumn H3 {
+  margin-top:     0.5em;
+}
+
+TABLE.twocolumn P.formsub {
+  margin: 1em 0 1em 1.5em;
+}
+
+UL {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      small;
+  font-style:     normal;
+  font-weight:    normal;
+}
+
+UL.rel {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      small;
+  font-style:     normal;
+  font-weight:    normal;
+  margin-top:     0px;
+  margin-bottom:  0px;
+}
+
+UL.tt {
+  margin-top:     0.3em;
+}
+
+LI.industry {
+  font-weight:    bold;
+}
+
+LI.task {
+  margin-bottom:  6px;
+}
+
+LI.addinfo {
+  margin-bottom:  6px;
+}
+
+UL.dwa {
+  color:          #004488;
+  font-family:    Arial, Helvetica, sans-serif;
+  font-size:      x-small;
+  font-style:     normal;
+  font-weight:    normal;
+  margin-top:     0;
+  margin-bottom:  0;
+}
+
+DIV.reporthead {
+  font-size: small;
+  background: #eeeeee;
+  font-weight: bold;
+  padding:     0.5em 1em;
+  border-bottom:  solid #004488 1px;
+}
+
+SPAN.reportheadchosen {
+  background: white;
+  padding:    0.5em;
+  border:     solid #004488 1px;
+  margin:     0 0.5em;
+}
+
+SPAN.reportheadchosenlink A {
+  background: white;
+  padding:    0.5em;
+  border:     solid #004488 1px;
+  margin:     0 0.5em;
+}
+
+SPAN.reportheadnot {
+  background: #eeeeee;
+  padding:    0.5em;
+  border:     solid #cccccc 1px;
+  border-bottom:     solid #004488 1px;
+  margin:     0 0.5em;
+}
+
+IMG {
+  border:         none;
+}
+
+IMG.browse {
+  float:          left;
+}
+
+IMG.whatsnew {
+  float:          left;
+}
+
+IMG.careervoy {
+  float:          right;
+  padding:        0 2em;
+}
+
+DIV.browse {
+  padding-top:    0.3em;
+  padding-bottom: 0.3em;
+}
+
+SPAN.browse {
+  display:        block;
+  padding-left:   30px;
+  margin-left:    5px;
+}
+
+DIV.browse A {
+  color:          #004488;
+  text-decoration: none;
+}
+
+DIV.browse A:link {
+  color:          #004488;
+  text-decoration: none;
+}
+
+DIV.browse A:visited {
+  color:          #004488;
+  text-decoration: none;
+}
+
+DIV.browse_content {
+  padding-left:   35px;
+}
+
+DIV.standout {
+  border-top:     solid 1px #CCCCCC;
+  border-bottom:  solid 1px #CCCCCC;
+  padding:        0.5em 3em;
+}
+
+DIV.standout TABLE TR TD {
+  vertical-align: middle;
+  font-weight:    normal;
+}
+
+TABLE.occ {
+	padding:        0.5em 0;
+	margin:         0;
+	background:     white;
+}
+
+TD.occcode, TABLE.occ TD.occcode {
+	padding:        0 1em 0.5em 5em;
+	margin:         0;
+	white-space:    nowrap;
+	text-align:     right;
+	background:     white;
+	font-weight:    normal;
+}
+TABLE.twocolumn TABLE.occ TD.occcode {
+  padding-left:   2em;
+}
+
+TD.occtitle, TABLE.occ TD.occtitle {
+	padding:        0 0 0.5em;
+	margin:         0;
+	background:     white;
+	font-weight:    normal;
+}
+
+TD.occcodebold {
+	padding:        0 1em 0.5em 5em;
+	margin:         0;
+	white-space:    nowrap;
+	text-align:     right;
+	background:     white;
+	font-weight:    bold;
+}
+
+TD.occtitlebold {
+	padding:        0 0 0.5em;
+	margin:         0;
+	background:     white;
+	font-weight:    bold;
+}
+
+TD.occcodeboldw {
+	padding:        0.6em 1em 0.3em 5em;
+	margin:         0;
+	white-space:    nowrap;
+	text-align:     right;
+	background:     white;
+	font-weight:    bold;
+}
+
+TD.occtitleboldw {
+	padding:        0.6em 0 0.3em;
+	margin:         0;
+	background:     white;
+	font-weight:    bold;
+}
+
+TABLE.occcompact {
+	padding:        0.3em 0;
+	margin:         0;
+	background:     white;
+}
+
+TD.occcompactcode {
+	padding:        0 1em 0.3em 1em;
+	margin:         0;
+	white-space:    nowrap;
+	text-align:     right;
+	background:     white;
+	font-weight:    normal;
+}
+
+TD.occcompacttitle {
+	padding:        0 0 0.3em;
+	margin:         0;
+	background:     white;
+	font-weight:    normal;
+}
+
+TD.occcompactchild {
+	padding:        0 0 0.3em 1em;
+	margin:         0;
+	background:     white;
+	font-weight:    normal;
+}
+
+SPAN.nonbold {
+  font-weight:    normal;
+}
+
+SPAN.extlink {
+  border:         solid 1px #AAAAAA;
+  background:     #FFFFCC;
+  padding:        2px;
+}
+
+LI.extlink {
+  padding:        3px;
+}
+
+SPAN.sortby {
+  display:        block;
+  font-size:      x-small;
+  float:          left;
+}
+
+SPAN.showhide {
+  float:          right;
+}
+
+TABLE.ctxAnchor {
+  padding-right:  5px;
+}
+
+UL.wider LI {
+  margin-bottom:  6px;
+}
+.loadtag2 {
+       width: 50px;
+    height: 1.5em;
+    border-width: 1px;
+    border-radius: 8.5px;
+    padding-left: 0;
+    padding-right: 0;}
