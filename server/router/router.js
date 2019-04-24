@@ -28,7 +28,7 @@ router.get('/query', async (ctx, next) => {
         })
       }
       break
-    case 'exactjob_of'://小类职业含有的细类职业
+    case 'exactjob_of'://小类职业含有的细类职业，以及小类职业的jobname,jobtext
       result = await dbm.queryDB(dbo, 'exact_occupation', {'occupation': match});
       break
     case 'skills_of_job'://获取小类职业所需技能
@@ -37,13 +37,15 @@ router.get('/query', async (ctx, next) => {
     case 'description_of'://获取细类职业的描述
       result = await dbm.queryDB(dbo, 'occupation_description', {'occupation': match});
       break
-    case 'has_skill'://获取小类职业含有的细类职业，以及小类职业的jobname,jobtext
+    case 'has_skill'://获取含有这种技能的小类职业
       result = await dbm.queryDB(dbo, 'occupation_skills', {'skills': {$in: [match]}});
       break
     case 'subskills_of'://获取技能下的细类技能及描述
       result = await dbm.queryDB(dbo, 'skill_classification', {'type': match});
       break
-
+    case 'skill_description'://输入细类职业，获取细类技能的详细信息
+      result = await dbm.queryDB(dbo, 'skill_classification', {$or: [{'skills': match}, {'Label': match}]});
+      break
   }
 
   //console.log(result)
