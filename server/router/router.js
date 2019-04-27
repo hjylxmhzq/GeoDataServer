@@ -46,6 +46,9 @@ router.get('/query', async (ctx, next) => {
     case 'skill_description'://输入细类职业，获取细类技能的详细信息
       result = await dbm.queryDB(dbo, 'skill_classification', {$or: [{'skills': match}, {'Label': match}]});
       break
+    case 'title':
+      result = await dbm.queryDB(dbo, 'index', {'name': 'title'});
+      result = result[0].skill;
   }
 
   //console.log(result)
